@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="card-header">
+    <div class="card-header-title">
+      <img src="{{ repository.owner.avatar_url }}" alt="avatar" />
+      <h1>{{ repository.full_name }}</h1>
+    </div>
+    <button
+      mat-icon-button
+      aria-label="icon button with clear"
+      (click)="closeCard()"
+    >
+      <mat-icon>clear</mat-icon>
+    </button>
+  </div>
+  <div class="card-content">
+    <div>Репозиторий создан: {{ data }}</div>
+    <div>Количество открытых задач: {{ repository.open_issues }}</div>
+    <div>Количество ответвлений: {{ repository.forks }}</div>
+  </div>
+  <div class="card-footer">
+    <a href="{{ repository.html_url }}" target="_blank">Link to GitHub</a>
+    <a
+      *ngIf="repository.homepage"
+      href="{{ repository.homepage }}"
+      target="_blank"
+      >Link to Owner</a
+    >
+  </div>
+</div>
