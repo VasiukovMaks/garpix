@@ -1,5 +1,5 @@
 {
-  "name": "gappix",
+  "name": "garpix",
   "engines": {
     "node": "12.22.3",
     "npm": "6.14.13"
@@ -7,6 +7,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "start:local": "ng serve",
     "start": "node server.js",
     "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
