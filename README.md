@@ -1,6 +1,6 @@
 # Garpix APP
 
-![screenshot](./assets/screenshot.png)
+![screenshot](./readme-assets/screenshot.png)
 
 ## How to start
 
