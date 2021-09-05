@@ -7,7 +7,7 @@
 ### Step 1
 
 ```
- git@github.com:VasiukovMaks/garpix.git
+ git clone git@github.com:VasiukovMaks/garpix.git
 ```
 
 ### Step 2
